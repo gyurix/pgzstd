@@ -1,6 +1,7 @@
 #include <postgres.h>
 #include <fmgr.h>
 #include <zstd.h>
+#include <varatt.h>
 
 #ifdef PG_MODULE_MAGIC
 PG_MODULE_MAGIC;
